@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotic Lanka - Admin Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="intro.html">INTRODUCTION</a></li>
+                    <li><a href="wildlife.html">DEPARTMENT OF WILDLIFE CONSERVATION</a></li>
+                    <li><a href="leopard.html">SRI LANKAN LEOPARD</a></li>
+                    <div class="dropdown">
+                        <li><a href="animals.html">ANIMALS IN SRI LANKA</a></li>
+                        <div class="dropdown-content">
+                            <li><a href="yala.html">YALA NATIONAL PARK</a></li>
+                            <li><a href="wilpattu.html">WILPATTU NATIONAL PARK</a></li>
+                        </div>
+                    </div>
+                    <li><a href="login.html" id="log_nav">Login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+</section>
+<body>
+
+    <section class="news_sec">
+        <main class="title">
+            <h2>News Subscriptions</h2>
+        </main>
+
+        <div class="login-box">
+            <div class="login-header">
+                <header>Subscription List</header>
+            </div>
+            <div class="subscriber-item">
+                <p id="userdetails">
+                    
+                </p>
+            </div>
+            <div class="login_info">
+            <header id="no_info"></header>
+            </div>
+        </div>
+        <button id="Clear">Clear Local Storage</button>
+
+    </section>
+
+
+</body>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>&copy; 2024 Exotic Lanka. All rights reserved.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+<script src="admin.js" defer></script>
+</body>
+</html>

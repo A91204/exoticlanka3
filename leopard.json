@@ -1,0 +1,35 @@
+{
+  "pageTitle": "Sri Lankan Leopard",
+  "header": {
+    "title": "Sri Lankan Leopard",
+    "imageSrc": "leopard img1.jpeg"
+  },
+  "venues": [
+    {
+      "name": "Yala National Park",
+      "description": "Yala National Park, located in the heart of nature's majesty, serves as a living canvas of wilderness, embellished with a rich palette of species. A robust leopard population roams freely in this natural symphony. Set off on an intriguing trip through varied habitats, with each step revealing unknown stories about the wild. Yala, a paradise for wildlife aficionados, invites you to observe the elegance and majesty of leopards in their undisturbed natural habitat."
+    },
+    {
+      "name": "Wilpattu National Park",
+      "description": "Step into the vast landscapes of Wilpattu, a sanctuary where echoes of the wild reverberate through ancient forests and expansive lakes. Here, the secretive world of leopards unfolds amidst the labyrinth of nature's wonders. Wilpattu, home to a significant leopard population, invites you to an exclusive rendezvous with these elusive big cats. Traverse the untouched wilderness and seize unique opportunities to observe their grace, as Wilpattu unveils the mysteries of the untamed."
+    },
+    {
+      "name": "Horton Plains",
+      "description": "A tapestry of highland plains unfolds at Horton Plains, a realm where leopards gracefully move to the rhythm of their distinctive surroundings. Amidst the cool breeze and sweeping landscapes, discover a different perspective on leopard behaviour. The highland plains of Horton invite you to a serene exploration, where each moment is a glimpse into the intricate tapestry of leopard life. Engage with the sublime and witness the untamed beauty that thrives in this elevated sanctuary."
+    }
+  ],
+  "threats": [
+    {
+      "name": "Poaching",
+      "imageSrc": "poaching.avif",
+      "description": "Poaching poses a severe threat to Sri Lankan leopards, leading to a decline in their population. Consequences include disruption of the ecosystem balance. Therefore, measures have been implemented to mitigate the impact. Stricter law enforcement, including penalties for poaching, serves as a deterrent. Increased patrols in leopard habitats act as a protective measure, monitoring and preventing illegal activities. Community awareness programs aim to educate and involve local communities in the conservation effort, fostering a sense of responsibility for the well-being of the leopards and their habitat.",
+      "link": "https://www.dwc.gov.lk/"
+    },
+    {
+      "name": "Habitat Loss",
+      "imageSrc": "habitat loss.jpeg",
+      "description": "Urbanization and deforestation are threatening the habitats of Sri Lankan leopards, making it challenging for them to survive. This not only affects the leopards but also leads to conflicts between them and nearby communities. In response to habitat loss, conservation efforts have been initiated to address the consequences. Reforestation projects aim to restore the green spaces crucial for leopards, providing them with suitable habitats. Habitat restoration initiatives focus on creating corridors and protected areas to facilitate the movement of leopards and reduce conflicts with human populations. Community-based conservation programs engage local communities in sustainable practices and encourage coexistence, minimizing the negative consequences of habitat loss.",
+      "link": "https://www.wwct.org/"
+    }
+  ]
+}

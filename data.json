@@ -1,0 +1,91 @@
+{
+  "users" : [
+    {
+      "username" : "admin",
+      "password" : "admin",
+      "role" : "admin",
+      "email" : "admin@admin.com"
+    },
+    {
+      "username" : "user",
+      "password" : "user",
+      "role" : "site_user",
+      "email" : "user@user.com"
+    }
+  ],
+
+"wildlife1": {
+    "title": "Sri Lankan Wildlife",
+    "description": "Sri Lanka, an island paradise in the Indian Ocean, is home to a rich and diverse range of wildlife. From lush jungles to pristine beaches, the country's ecosystems a wide variety of species.",
+    "link": "#intro"
+ },
+ "intro": {
+    "title": "Introduction",
+    "description": "Embark on a virtual safari through Sri Lanka's breathtaking wildlife! Discover the majesty of elephants, the stealth of leopards, and the vibrant avian wonders that grace the skies. Dive into coastal waters, where dolphins, whales, and sea turtles enchant with their aquatic ballet. Our platform is a digital sanctuary, offering glimpses into the delicate dance of nature and dedicated wildlife conservation efforts in Sri Lanka. Join us on this brief yet immersive journey into the heart of this tropical paradise, where each click opens a window to the extraordinary biodiversity that defines Sri Lanka's unique charm. Welcome to a succinct exploration of the captivating wildlife that makes Sri Lanka truly special.",
+    "sections": [
+      {
+        "title": "Wildlife in Sri Lanka",
+        "image": "leaf.jpg",
+        "description": "Sri Lanka's wildlife is as diverse as the island itself, ranging from elephants and leopards to marine life and a wide variety of birds. The country is currently one of the best sites in the world to watch whales, including the mighty blue whale. With 12% of the country allocated for wildlife protection, it is simple to get a taste of Sri Lankan wildlife: safari parks and sanctuaries, especially in the southern and central zones, provide the best opportunity to witness animals in their natural habitat. Stay vigilant for a sighting of the endangered leopard; take your time as you watch the elephants feeding and washing in a tank or lagoon, or walk quietly along the beaches of the west and south coast near to marine turtles as they lay their eggs."
+      },
+      {
+        "title": "Birds of Sri Lanka",
+        "image": "birds.jpeg",
+        "description": "Sri Lanka unfolds as a paradise for bird enthusiasts, showcasing an impressive ensemble of over 400 species. Among the island's avian treasures, the endemic Sri Lanka Blue Magpie, the vivid Sri Lanka Junglefowl, and the enchanting Kingfisher stand as feathered ambassadors of its diverse habitats. Whether exploring the dynamic rainforests or relaxing along the coastal zones, visitors can immerse themselves in a visually and acoustically stimulating display of colors and bird melodies. The Kingfisher, with its dazzling plumage, adds an artistic flair to the birdwatching experience."
+      }
+    ]
+ },
+
+ "newsletter": {
+    "title": "Subscribe to Our News Letter",
+    "form": {
+      "email": {
+        "placeholder": "Enter your email",
+        "required": true
+      },
+      "submit": "Subscribe"
+    }
+ },
+
+
+ "wildlifeLocations": [
+  {
+    "title": "Location 1: Horton Plains National Park",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.6740385671706!2d80.79975837471568!3d6.809445993188109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705484450888!5m2!1sen!2slk",
+    "images": [
+      "horton plains img1.jpeg",
+      "horton plains img2.jpeg"
+    ],
+    "description": "A unique and biodiverse area known for its picturesque landscapes and rich wildlife. Explore the highland plains, home to various species of birds and mammals. Don't miss the jaw-dropping climax at World's End, where the plains dramatically plunge, offering an awe-inspiring panorama. Horton Plains offers a mystical journey through mist-kissed landscapes and enchanting wildlife encounters."
+  },
+  {
+    "title": "Location 2: Sinharaja Forest Reserve",
+    "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8991152230387!2d80.45745167505285!3d6.406996124506122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1705485310776!5m2!1sen!2slk",
+    "images": [
+      "sinharaja img1.jpeg",
+      "sinharaja img2.jpeg"
+    ],
+    "description": "An ancient rainforest teeming with biodiversity. Encounter rare species of birds, insects, and amphibians in this UNESCO World Heritage Site. Sinharaja invites adventurers to tread its lush trails and discover the magic of untouched wilderness. With its dense canopy, glistening streams, and the symphony of birdcalls, Sinharaja Forest Reserve beckons intrepid souls to unravel the secrets of this ecological treasure trove."
+  }
+],
+  "wildlifeSummary": {
+    "headers": ["Animal Name", "Interesting Facts", "Image"],
+    "rows": [
+      {
+        "Animal Name": "Sambar Deer",
+        "Interesting Facts": "The largest deer species in Sri Lanka. Known for their keen sense of smell, Sambar Deer rely on it to detect predators and find food. As herbivores, their menu includes grass, fruits, and various types of vegetation. Males have impressive antlers, which can span up to 43 inches. They are well-known for their nocturnal habits, Sambar Deer are primarily crepuscular, being most active during dawn and dusk.",
+        "Image": "sambar deer.jpeg"
+      },
+      {
+        "Animal Name": "Purple-faced Langur",
+        "Interesting Facts": "Endemic primate with distinctive purple fur on its face. The Purple-faced Langur is a native species found only in Sri Lanka, making it a symbol of the island's biodiversity. Infants are born with an orange coat that gradually changes to the distinctive purple hue as they mature. While living in social groups called troops, they showcase impressive acrobatics while navigating treetops.",
+        "Image": "purple-faced langur.jpeg"
+      },
+      {
+        "Animal Name": "Red-faced Malkoha",
+        "Interesting Facts": "With a striking red face, black body, and long tail, the Red-faced Malkoha stands out in Sri Lanka's avian population due to its unique appearance. They can seamlessly blend into their surroundings, as they are found in forests and wooded areas. Red-faced Malkohas have an omnivorous diet, that consists of feasting on insects, small mammals, and a variety of fruits.",
+        "Image": "red-faced malkoha.jpeg"
+      }
+    ]
+  }
+}

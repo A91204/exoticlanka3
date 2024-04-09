@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotic Lanka - Sri Lankan Leopard</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="leopard">
+    <nav>
+      <a href="index.html"><img src="logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="intro.html">INTRODUCTION</a></li>
+          <li><a href="wildlife.html">DEPARTMENT OF WILDLIFE CONSERVATION</a></li>
+          <li><a href="leopard.html">SRI LANKAN LEOPARD</a></li>
+          <div class="dropdown">
+            <li><a href="animals.html">ANIMALS IN SRI LANKA</a></li>
+            <div class="dropdown-content">
+              <li><a href="yala.html">YALA NATIONAL PARK</a></li>
+              <li><a href="wilpattu.html">WILPATTU NATIONAL PARK</a></li>
+            </div>
+          </div>
+          <li><a href="login.html" id="log_nav">Login</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </section>
+  <header>
+    <h1>Sri Lankan Leopard</h1>
+    <img src="leopard img1.jpeg" alt="Leopard">
+  </header>
+
+  <section id="venues">
+      <h2>Leopard Venues in Sri Lanka</h2>
+      <div class="venue">
+          <h3>Venue 1: Yala National Park</h3>
+          <p>Yala National Park, located in the heart of nature's majesty, serves as a living canvas of wilderness, embellished with a rich palette of species. A robust leopard population roams freely in this natural symphony. Set off on an intriguing trip through varied habitats, with each step revealing unknown stories about the wild. Yala, a paradise for wildlife aficionados, invites you to observe the elegance and majesty of leopards in their undisturbed natural habitat.</p>
+      </div>
+
+      <div class="venue">
+          <h3>Venue 2: Wilpattu National Park</h3>
+          <p>Step into the vast landscapes of Wilpattu, a sanctuary where echoes of the wild reverberate through ancient forests and expansive lakes. Here, the secretive world of leopards unfolds amidst the labyrinth of nature's wonders. Wilpattu, home to a significant leopard population, invites you to an exclusive rendezvous with these elusive big cats. Traverse the untouched wilderness and seize unique opportunities to observe their grace, as Wilpattu unveils the mysteries of the untamed.</p>
+      </div>
+      <div class="venue">
+          <h3>Venue 3: Horton Plains</h3>
+          <p>A tapestry of highland plains unfolds at Horton Plains, a realm where leopards gracefully move to the rhythm of their distinctive surroundings. Amidst the cool breeze and sweeping landscapes, discover a different perspective on leopard behaviour. The highland plains of Horton invite you to a serene exploration, where each moment is a glimpse into the intricate tapestry of leopard life. Engage with the sublime and witness the untamed beauty that thrives in this elevated sanctuary.</p>
+      </div>
+  </section>
+
+  <section id="threats">
+      <h2>Threats to Sri Lankan Leopards</h2>
+
+      <div class="threat">
+          <img src="poaching.avif" alt="Poaching Threat">
+          <h3>Poaching</h3>
+          <p>Poaching poses a severe threat to Sri Lankan leopards, leading to a decline in their population. Consequences include disruption of the ecosystem balance.</p>
+          <p>Therefore, measures have been implemented to mitigate the impact. Stricter law enforcement, including penalties for poaching, serves as a deterrent. Increased patrols in leopard habitats act as a protective measure, monitoring and preventing illegal activities. Community awareness programs aim to educate and involve local communities in the conservation effort, fostering a sense of responsibility for the well-being of the leopards and their habitat.</p>
+          <a href="https://www.dwc.gov.lk/">Learn more at Leopard Conservation Society</a>
+      </div>
+
+      <div class="threat">
+          <img src="habitat loss.jpeg" alt="Habitat Loss Threat">
+          <h3>Habitat Loss</h3>
+          <p>Urbanization and deforestation are threatening the habitats of Sri Lankan leopards, making it challenging for them to survive. This not only affects the leopards but also leads to conflicts between them and nearby communities.</p>
+          <p>In response to habitat loss, conservation efforts have been initiated to address the consequences. Reforestation projects aim to restore the green spaces crucial for leopards, providing them with suitable habitats. Habitat restoration initiatives focus on creating corridors and protected areas to facilitate the movement of leopards and reduce conflicts with human populations. Community-based conservation programs engage local communities in sustainable practices and encourage coexistence, minimizing the negative consequences of habitat loss.</a>
+          <a href="https://www.wwct.org/"><br>Explore initiatives at Wildlife Conservation Trust</a>
+      </div>
+  </section>
+
+  <script>
+    fetch("leopardData.json")
+      .then((response) => response.json())
+      .then((data) => {
+        renderVenues(data.venues);
+        renderThreats(data.threats);
+      })
+      .catch((error) => console.error("Error fetching data:", error));
+
+    function renderVenues(venues) {
+      const venueContainer = document.getElementById("venueContainer");
+      venues.forEach((venue) => {
+        const venueDiv = document.createElement("div");
+        venueDiv.classList.add("venue");
+        venueDiv.innerHTML = `
+                  <h3>${venue.name}</h3>
+                  <p>${venue.description}</p>
+              `;
+        venueContainer.appendChild(venueDiv);
+      });
+    }
+
+    function renderThreats(threats) {
+      const threatContainer = document.getElementById("threatContainer");
+      threats.forEach((threat) => {
+        const threatDiv = document.createElement("div");
+        threatDiv.classList.add("threat");
+        threatDiv.innerHTML = `
+                  <h3>${threat.name}</h3>
+                  <img src="${threat.imageSrc}" alt="${threat.name}">
+                  <p>${threat.description}</p>
+                  <a href="${threat.link}" target="_blank">Learn more</a>
+              `;
+        threatContainer.appendChild(threatDiv);
+      });
+    }
+  </script>
+  
+  <section class="footer">
+    <h4>About Us</h4>`
+    <p>&copy; 2024 Exotic Lanka. All rights reserved.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+</body>
+</html>

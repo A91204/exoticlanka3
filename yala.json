@@ -1,0 +1,30 @@
+{
+  "header": {
+    "title": "Yala National Park"
+  },
+  "yala-main": {
+    "image": {
+      "src": "yala main.webp",
+      "alt": "Yala National Park"
+    },
+    "description": "Welcome to Yala National Park, an enchanting haven for wildlife enthusiasts and nature devotees alike. Roam the winding paths, where the symphony of exotic birds and rustling leaves creates a magical atmosphere. Marvel at majestic elephants, elusive leopards, and a kaleidoscope of bird species against the backdrop of serene lakes and dense forests. Yala is not just a destination; it's a dynamic tale of coexistence, inviting you to engage with the heartbeat of the wild.<br>Embark on this enthralling journey, where every step reveals a new chapter in the captivating narrative of Yala National Park."
+  },
+  "yala-image": [
+    {
+      "src": "yala img1.jpeg",
+      "alt": "Yala Image 1"
+    },
+    {
+      "src": "yala img2.jpeg",
+      "alt": "Yala Image 2"
+    },
+    {
+      "src": "yala img3.jpeg",
+      "alt": "Yala Image 3"
+    }
+  ],
+  "yala-info": {
+    "title": "Discover the Wilderness",
+    "description": "Learn about  the lively world of Yala National Park, where nature's secrets unfold for exploration. Dive into the intricacies of unique environments that share tales of diverse wildlife. Learn about the ongoing efforts to protect these natural wonders and the thrilling experiences that await. Get ready for an adventure filled with exciting encounters with majestic creatures, glimpses of elusive leopards, and the delightful harmony of the untamed outdoors. At Yala, nature's story isn't just something you see, it's a fascinating, hands-on journey ready to share, inspire, and leave you with lasting memories."
+  }
+}

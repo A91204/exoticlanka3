@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotic Lanka - Animals in Sri Lanka</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="animals">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="intro.html">INTRODUCTION</a></li>
+                        <li><a href="wildlife.html">DEPARTMENT OF WILDLIFE CONSERVATION</a></li>
+                        <li><a href="leopard.html">SRI LANKAN LEOPARD</a></li>
+                        <div class="dropdown">
+                            <li><a href="animals.html">ANIMALS IN SRI LANKA</a></li>
+                            <div class="dropdown-content">
+                                <li><a href="yala.html">YALA NATIONAL PARK</a></li>
+                                <li><a href="wilpattu.html">WILPATTU NATIONAL PARK</a></li>
+                            </div>
+                        </div>
+                        <li><a href="login.html" id="log_nav">Login</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    </section>
+    <header>
+        <h1>Indigenous Animals in Sri Lanka</h1>
+    </header>
+
+    <section class="description">
+        <p>Embark on a journey to discover the incredible variety of wildlife that calls Sri Lanka home. From the magnificent Sri Lankan elephant to the mysterious leopard, each species plays a vital role in shaping the island's diverse ecosystem. Explore the unique connections between these animals, forming a rich and vibrant tapestry that highlights the beauty of Sri Lanka's natural world. This collection of native animals paints a vivid picture, showcasing the importance and wonder of the island's wildlife.</p>
+        <p>In this living gallery of nature, discover the harmonious interactions between diverse species, each playing a unique role in the intricate web of life. Marvel at the acrobatic feats of mischievous monkeys swinging through the emerald canopy and eavesdrop on the melodic conversations of colorful birds that paint the skies.</p>
+        <p>Join us on this immersive journey, where the allure of Sri Lanka's wildlife goes beyond observation.</p>
+        <img src="animal.jpeg" alt="Leopards>
+    </section>
+
+    <div class="animal-links">
+        <h2>Explore More About These On:</h2>
+        <ul>
+            <a href="yala.html" class="animal-btn">Yala National Park</a>
+            <a href="wilpattu.html" class="animal-btn">Wilpattu National Park</a>
+        </ul>
+    </div>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        </script>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>&copy; 2024 Exotic Lanka. All rights reserved.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>    
+
+</body>
+</html>

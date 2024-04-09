@@ -1,0 +1,28 @@
+{
+  "header": {
+    "title": "Wilpattu National Park"
+  },
+  "wilpattu-main": [
+    {
+      "image": {
+        "src": "wilpattu main.jpeg",
+        "alt": "Wilpattu Main"
+      },
+      "description": "Step into the captivating wilderness of Wilpattu National Park, a hidden gem in northwestern Sri Lanka. This natural haven invites you to venture into an adventure where every step unfolds a story of diverse wildlife. Encounter graceful deer, and catch a glimpse of the elusive leopard, the true royalty of Wilpattu. Explore untamed trails, unraveling the secrets of this living canvas, and immerse yourself in the captivating symphony of nature. Wilpattu National Park is not just a destination; it's an open door to witness the untamed wonders of Sri Lanka's vibrant landscape."
+    },
+    {
+      "title": "Nature Trails",
+      "images": [
+        {
+          "src": "wilpattu img1.jpeg",
+          "alt": "Wilpattu Image 1"
+        },
+        {
+          "src": "wilpattu img2.jpeg",
+          "alt": "Wilpattu Image 2"
+        }
+      ],
+      "description": "The nature trails at Wilpattu National Park create a rich mosaic of natural beauty that captivates the senses. As you traverse these enchanting paths, you'll find yourself immersed in a world of lush greenery, where towering trees form a canopy that filters the sunlight, casting dappled shadows on the trail below. The air is infused with the sweet fragrance of blooming flowers, and the symphony of bird songs creates a harmonious melody that accompanies your journey. Along the way, hidden gems reveal themselves, such as tranquil lakes reflecting the surrounding foliage and vibrant flora that paint the landscape with a kaleidoscope of colours. These trails are not just pathways; they are portals to a realm where every step unfolds a new chapter in the captivating story of Wilpattu's natural wonders."
+    }
+  ]
+}

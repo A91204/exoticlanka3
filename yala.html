@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exotic Lanka - Yala National Park</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="yala">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="intro.html">INTRODUCTION</a></li>
+                        <li><a href="wildlife.html">DEPARTMENT OF WILDLIFE CONSERVATION</a></li>
+                        <li><a href="leopard.html">SRI LANKAN LEOPARD</a></li>
+                        <div class="dropdown">
+                            <li><a href="animals.html">ANIMALS IN SRI LANKA</a></li>
+                            <div class="dropdown-content">
+                                <li><a href="yala.html">YALA NATIONAL PARK</a></li>
+                                <li><a href="wilpattu.html">WILPATTU NATIONAL PARK</a></li>
+                            </div>
+                        </div>
+                        <li><a href="login.html" id="log_nav">Login</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+    </section>
+
+    <header>
+        <h1 id="yala1">Yala National Park</h1>
+    </header>
+
+    <section class="yala-main">
+        <img src="yala main.webp" alt="Yala National Park">
+        <p>Welcome to Yala National Park, an enchanting haven for wildlife enthusiasts and nature devotees alike. Roam the winding paths, where the symphony of exotic birds and rustling leaves creates a magical atmosphere. Marvel at majestic elephants, elusive leopards, and a kaleidoscope of bird species against the backdrop of serene lakes and dense forests. Yala is not just a destination; it's a dynamic tale of coexistence, inviting you to engage with the heartbeat of the wild. <br>Embark on this enthralling journey, where every step reveals a new chapter in the captivating narrative of Yala National Park.</p>
+    </section>
+
+    <section class="yala-image">
+        <img src="yala img1.jpeg" alt="Yala Image 1">
+        <img src="yala img2.jpeg" alt="Yala Image 2">
+        <img src="yala img3.jpeg" alt="Yala Image 3">
+    </section>
+
+    <section class="yala-info">
+        <h2>Discover the Wilderness</h2>
+        <p>Learn about  the lively world of Yala National Park, where nature's secrets unfold for exploration. Dive into the intricacies of unique environments that share tales of diverse wildlife. Learn about the ongoing efforts to protect these natural wonders and the thrilling experiences that await. Get ready for an adventure filled with exciting encounters with majestic creatures, glimpses of elusive leopards, and the delightful harmony of the untamed outdoors. At Yala, nature's story isn't just something you see, it's a fascinating, hands-on journey ready to share, inspire, and leave you with lasting memories.</p>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        function renderContent(yala) {
+            const yala1 = document.getElementById('yala1');
+            yala1.innerHTML = yala.header.title;
+
+        }
+        
+        </script>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>&copy; 2024 Exotic Lanka. All rights reserved.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>    
+
+</body>
+</html>

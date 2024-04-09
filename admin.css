@@ -1,0 +1,58 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+}
+
+.news_sec {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+
+.login-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 370px;
+    margin: 50px auto;
+    background-color: #687c59;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login_info {
+    display: flex;
+    color: #4a5c48;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 70px auto;
+}
+
+.login-header {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#Clear {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 35px auto;
+    cursor: pointer;
+    border-radius: 35px;
+    border: none;
+}
